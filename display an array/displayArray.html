@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <h3 id="demo2"></h3>
+
+    <script>
+        //create an array
+        const car = ['Coola', 'BMW', 'Volvo'];
+        const name = ['sazid', 'dizas', 'munshi'];
+
+        //change an element in cars
+
+        car[0] = "Zeep wragner";
+        car[2] = 'Puma';
+        car[3] = 'ss'; //it add on array automaticly
+
+        //push / add new element
+
+        car[4] = 'ssf';
+        car[6] = 'ssc';
+        //or
+        car.push('new push');
+        //display array
+        document.getElementById('demo').innerHTML = car;
+        document.getElementById('demo2').innerHTML = name;
+    </script>
+</body>
+
+</html>
